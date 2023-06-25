@@ -151,7 +151,7 @@ class SourceParse:
             good_itter['name_post'] = name_post
             good_itter['link'] = link
             good_itter['views_post'] = views_post
-            good_itter['date_post'] = date_post
+            good_itter['date_post'] = str(date_post.strftime('%d.%m.%Y'))
 
             self.links_post.append(good_itter)
 
